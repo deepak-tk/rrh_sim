@@ -1,0 +1,22 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">	
+    <SOAP-ENV:Header>
+	<to>RM1</to>
+	<from>ESMB</from>
+	<id>4006</id>
+	<action>OBSAI_CM</action>
+	<version>2.0</version>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+	<modifyParameterReq>
+	    <managedObject class="Module" distName="module">
+		<operation>update_parm</operation>
+		<parameter>
+		    <parameterName>blocked</parameterName>
+		    <newValue>TRUE</newValue>
+		    <prevValue></prevValue>
+		</parameter>
+	    </managedObject>
+	</modifyParameterReq>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

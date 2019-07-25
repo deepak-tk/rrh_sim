@@ -1,0 +1,22 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">	
+<SOAP-ENV:Header>
+	<to>ESMB</to>
+	<from>RM1</from>
+	<id>1006</id>
+	<action>OBSAI_FM</action>
+	<version>1.0</version>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+	<alarmNotif>
+		<faultId>123</faultId>
+		<faultSource>antenna1a</faultSource>
+		<affectedObjects>
+			<name>antenna1a</name>
+		</affectedObjects>
+		<faultSeverity>critical</faultSeverity>
+		<faultState>active</faultState>
+		<faultText>Synchr. error</faultText>
+		<eventTime>2004-07-13T15:39:00Z</eventTime>
+	</alarmNotif>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

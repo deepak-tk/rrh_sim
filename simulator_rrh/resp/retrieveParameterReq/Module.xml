@@ -1,0 +1,21 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">     
+<SOAP-ENV:Header>
+   <to>ESMB</to>
+   <from>RM1</from>
+   <id>1004</id>
+   <action>OBSAI_CM</action>
+   <version>2.0</version>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+   <retrieveParameterRsp>
+      <managedObject distName="module" class="Module">
+          <parameter>
+              <parameterName>status</parameterName>
+              <newValue>NORMAL</newValue>
+              <prevValue>NORMAL</prevValue>
+          </parameter>
+      </managedObject>
+     <status>OK</status>
+   </retrieveParameterRsp>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

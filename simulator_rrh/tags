@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+RP1BROKER_SOAPPARSER_HPP	SoapParser.hpp	13;"	d
+RP1Broker	SoapParser.hpp	/^namespace RP1Broker$/;"	n
+SoapParser	SoapParser.cpp	/^RP1Broker::SoapParser::SoapParser(std::string msg)$/;"	f	class:RP1Broker::SoapParser
+SoapParser	SoapParser.hpp	/^    class SoapParser$/;"	c	namespace:RP1Broker
+SoapParserException	SoapParser.hpp	/^            SoapParserException(std::string message) {$/;"	f	class:RP1Broker::SoapParserException
+SoapParserException	SoapParser.hpp	/^    class SoapParserException : public std::exception {$/;"	c	namespace:RP1Broker
+addIdToSoapMsg	SoapParser.cpp	/^void RP1Broker::SoapParser::addIdToSoapMsg(const std::string soapId, std::string& msg)$/;"	f	class:RP1Broker::SoapParser
+addRelatesToSoapMsg	SoapParser.cpp	/^void RP1Broker::SoapParser::addRelatesToSoapMsg(const std::string filePath,const std::string msgId, std::string& msg)$/;"	f	class:RP1Broker::SoapParser
+getFilePath	main.cpp	/^void getFilePath(const std::string msgType, std::string& filePath)$/;"	f
+getMsgId	SoapParser.cpp	/^void RP1Broker::SoapParser::getMsgId(std::string& msgId)$/;"	f	class:RP1Broker::SoapParser
+getMsgMoList	SoapParser.cpp	/^void RP1Broker::SoapParser::getMsgMoList(std::list<std::string>& msgMoList)$/;"	f	class:RP1Broker::SoapParser
+getMsgType	SoapParser.cpp	/^void RP1Broker::SoapParser::getMsgType(std::string& msgType)$/;"	f	class:RP1Broker::SoapParser
+getRelatesTo	SoapParser.cpp	/^void RP1Broker::SoapParser::getRelatesTo(std::string& relatesTo)$/;"	f	class:RP1Broker::SoapParser
+getSoapMsgDetails	SoapParser.cpp	/^void RP1Broker::SoapParser::getSoapMsgDetails(xmlNode* node, int indentLen)$/;"	f	class:RP1Broker::SoapParser
+getSoapMsgMoList	SoapParser.cpp	/^void RP1Broker::SoapParser::getSoapMsgMoList(xmlNode* node)$/;"	f	class:RP1Broker::SoapParser
+getState	main.cpp	/^enum msgType{ reset, getState, log};$/;"	e	enum:msgType	file:
+insertSoapMsgId	SoapParser.cpp	/^void RP1Broker::SoapParser::insertSoapMsgId(xmlDoc* doc, xmlNode * node, int indentLen, const std::string soapId)$/;"	f	class:RP1Broker::SoapParser
+insertSoapMsgRelatesTo	SoapParser.cpp	/^void RP1Broker::SoapParser::insertSoapMsgRelatesTo(xmlDoc* doc, xmlNode * node, int indentLen, const std::string rrhId)$/;"	f	class:RP1Broker::SoapParser
+log	main.cpp	/^enum msgType{ reset, getState, log};$/;"	e	enum:msgType	file:
+main	main.cpp	/^int main()$/;"	f
+main	p1.c	/^int main(void)$/;"	f
+mapMsgType	main.cpp	/^std::map<std::string, msgType> mapMsgType ;$/;"	v
+msgIdVal	SoapParser.hpp	/^	    std::string msgIdVal;$/;"	m	class:RP1Broker::SoapParser
+msgMoListVal	SoapParser.hpp	/^	    std::list<std::string> msgMoListVal;$/;"	m	class:RP1Broker::SoapParser
+msgType	main.cpp	/^enum msgType{ reset, getState, log};$/;"	g	file:
+msgTypeVal	SoapParser.hpp	/^	    std::string msgTypeVal;$/;"	m	class:RP1Broker::SoapParser
+populateSoapMsgDetails	SoapParser.cpp	/^void RP1Broker::SoapParser::populateSoapMsgDetails(std::string msg)$/;"	f	class:RP1Broker::SoapParser
+readXmlToMsg	main.cpp	/^void readXmlToMsg(const char* file, std::string& msg)$/;"	f
+reason	SoapParser.hpp	/^            std::string reason;$/;"	m	class:RP1Broker::SoapParserException
+relatesToVal	SoapParser.hpp	/^	    std::string relatesToVal;$/;"	m	class:RP1Broker::SoapParser
+reset	main.cpp	/^enum msgType{ reset, getState, log};$/;"	e	enum:msgType	file:
+~SoapParser	SoapParser.cpp	/^RP1Broker::SoapParser::~SoapParser()$/;"	f	class:RP1Broker::SoapParser
+~SoapParserException	SoapParser.hpp	/^            virtual ~SoapParserException(){}$/;"	f	class:RP1Broker::SoapParserException

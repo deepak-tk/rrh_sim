@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">	
+	<SOAP-ENV:Header>
+		<to>ESMB</to>
+		<from>RM1</from>
+		<id>1010</id>
+		<action>Nokia_RD</action>
+		<version>1.0</version>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<techLogFileResp>
+			<status>OK</status>
+			<last>False</last>
+			<transferProtocol>FTP</transferProtocol>
+			<userName>userxyz</userName>
+			<password>pass1234</password>
+			<fileContent>Runtime</fileContent>
+			<fileName>/ram/runtime.log</fileName>
+		</techLogFileResp>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
